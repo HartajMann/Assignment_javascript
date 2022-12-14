@@ -5,6 +5,6 @@ var contact_page=document.getElementById("contact-page");
 var submit_btn=document.getElementById("submit-button");
 submit_btn.addEventListener("click",newpage);
 function newpage(){
-    contact_page.innerHTML="Thank you for your message!";
+    contact_page.innerHTML="<p>Thank you for your message!</p>";
     contact_page.style.fontSize="24px";
 }
